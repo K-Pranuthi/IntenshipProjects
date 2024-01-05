@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document 2</title>
+        <style>
+            body{
+                background-color: linen;
+            }
+            div{
+                text-align:center;
+                font:30px; ;
+            }
+            h1{
+                 text-align: center;
+                 color:rgb(18, 227, 235);
+            }
+            h4{
+                text-align: center;
+            }
+            .box{
+                background-color: rgb(159, 235, 238);
+                width: 500px;
+                height: auto;
+                border-radius: 10px;
+                border-style: solid;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 12px;
+            }
+            button{
+                border-radius: 12px;
+                font-size:medium;
+                background-color: lightgreen;
+                width: 100px;
+                height: 50px;
+           }
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <h4>Fill this out to create an account</h4>
+        <br>
+        <form>
+             <div>
+                <div class="box">
+                    <label>First name</label>
+                    <input type="text" placeholder="Firstname" size="20"/>
+                    <br/><br/>
+                    <label>Middle name</label>
+                    <input type="text" placeholder="Middlename" size="20"/>
+                    <br/><br/>
+                    <label>Last name</label>
+                    <input type="text" placeholder="Lastname" size="20"/>
+                    <br/><br/>
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter email address" size="20" required/>
+                    <br/><br/>
+                    <label>User name</label>
+                    <input type="text" placeholder="Enter username" size="20" required/>
+                    <br/><br/>
+                    <label>Password</label>
+                    <input type="text" placeholder="password" size="20"/>
+                    <br/><br/>
+                    <p>Already have an account? <a herf="#" style="text-decoration: underline; color: blue; "> Sign in </a></p>
+                    <br/>
+                    <button type="submit" class="registerbtn">Register</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
