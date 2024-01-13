@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Project 3</title>
+        <style>
+            body{
+                background-color:seashell;
+            }
+            h1{
+                text-align:center;
+                color: deepskyblue;
+            }
+            h2{
+                text-align:center;
+            }
+            .wrapper{
+                margin: 150px auto;
+                width:70%;
+                padding-left:40px;
+            }
+            img{
+                max-width:520px;
+                background-color: ivory;
+                float:left;
+                border:3px solid crimson;
+                border-radius: 10px;
+                margin-right:15px;
+            }
+            .text{
+                color:black;
+            }
+            .text p{
+                font-size:25px;
+            }
+            .menu a{
+               text-decoration: none;
+               color:blueviolet;
+               padding:10px 20px;
+               font-size:20px;
+               position:relative;
+            }
+            button{
+                border-radius: 12px;
+                font-size:medium;
+                background-color: aqua;
+                width:200px;
+                height:80px;
+            }
+            .rating{
+                unicode-bidi:bidi-override;
+                direction:rtl;
+                text-align: center;
+            }
+            .rating input{
+                display: none;
+            }
+            .rating label{
+                display: inline-block;
+                padding:5px;
+                font-size: 24px;
+                color:#ddd;
+                cursor:pointer;
+            }
+            .rating label:hover,
+            .rating label:hover~label,
+            .rating input:checked~label{
+                color:#f39c12;
+            }
+           .box{
+                text-align: center;
+                padding-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+       <h1>Lightning Bolt Electronics</h1>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Products</a> 
+            <a href="#">Technologies</a>
+        </div>  
+        <div class="wrapper"></div>
+            <img src="https://www.aosmithindia.com/wp-content/uploads/2022/10/Elegance-prime2.png">
+             <div class="text">
+                <h2 style="font-size: 35px;">Product name: Water Heater</h2>
+               <p>Embrace the convenience and 
+                efficiency that defines modern living, as this powerhouse of innovation
+                ensures a constant flow of hot water, promising a touch of opulence in 
+                every drop.
+               </p><br><p>Features</p>
+               <p>1.Saves electricity<br>2.Easy to move<br>3.Temperature control<br>4.Energy efficiency</p>
+               <h3 style="font-size:25px">No cost EMI</h3>
+               <h3 style="font-size:25px">10% cash back on using credits</h3>
+               <h3 style="font-size: 40px">Price : 7560</h3>
+            </div>
+       </div>  
+       <h3 style="font-size:20px;padding-left:600px;">Rating </h3>     
+       <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5">&#9733;</label>
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">&#9733;</label>
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">&#9733;</label>
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">&#9733;</label>
+        <input type="radio" id="star1" name="rating" value="1">
+        <label for="star1">&#9733;</label>
+       </div>   
+        <div class="box">
+          <button type="button">Show more products</button>
+          <button type="button">Add products to Cart</button>
+          <button type="button">Buy Now</button>
+        </div>
+    </body>
